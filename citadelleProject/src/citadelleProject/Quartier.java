@@ -3,7 +3,7 @@ package citadelleProject;
 public class Quartier {
 	
 	
-public Quartier(int cout, String famille, String nom) {
+public Quartier(int cout, Famille famille, String nom) {
 		super();
 		this.cout = cout;
 		this.famille = famille;
@@ -15,10 +15,10 @@ public int getCout() {
 	public void setCout(int cout) {
 		this.cout = cout;
 	}
-	public String getFamille() {
+	public Famille getFamille() {
 		return famille;
 	}
-	public void setFamille(String famille) {
+	public void setFamille(Famille famille) {
 		this.famille = famille;
 	}
 	public String getNom() {
@@ -29,7 +29,7 @@ public int getCout() {
 	}
 	
 private int cout;
-private String famille;
+private Famille famille;
 private String nom;
 
 }
